@@ -380,7 +380,7 @@ export default function Dashboard() {
 			
 			<Grid templateColumns={{ sm: '1fr', md: '1fr 1fr', lg: '2fr 1fr' }} gap='24px'>
 				{/* Projects */}
-				<Card p='16px' overflowX={{ sm: 'scroll', xl: 'hidden' }}>
+				{/* <Card p='16px' overflowX={{ sm: 'scroll', xl: 'hidden' }}>
 					<CardHeader p='12px 0px 28px 0px'>
 						<Flex direction='column'>
 							<Text fontSize='lg' color='#fff' fontWeight='bold' pb='8px'>
@@ -433,9 +433,9 @@ export default function Dashboard() {
 							})}
 						</Tbody>
 					</Table>
-				</Card>
+				</Card> */}
 				{/* Orders Overview */}
-				<Card>
+				{/* <Card>
 					<CardHeader mb='32px'>
 						<Flex direction='column'>
 							<Text fontSize='lg' color='#fff' fontWeight='bold' mb='6px'>
@@ -468,7 +468,7 @@ export default function Dashboard() {
 							})}
 						</Flex>
 					</CardBody>
-				</Card>
+				</Card> */}
 			</Grid>
 		</Flex>
 	);
