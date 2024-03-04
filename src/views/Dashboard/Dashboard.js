@@ -207,7 +207,7 @@ export default function Dashboard() {
 									Welcome back,
 								</Text>
 								<Text fontSize='28px' color='#fff' fontWeight='bold' mb='18px'>
-									Mark Johnson
+									UserName
 								</Text>
 								<Text fontSize='md' color='gray.400' fontWeight='normal' mb='auto'>
 									Glad to see you again! <br />
@@ -253,10 +253,10 @@ export default function Dashboard() {
 					<CardHeader mb='24px'>
 						<Flex direction='column'>
 							<Text color='#fff' fontSize='lg' fontWeight='bold' mb='4px'>
-								Satisfaction Rate
+								Total Fitness Goal Achieved
 							</Text>
 							<Text color='gray.400' fontSize='sm'>
-								From all projects
+								From all activities
 							</Text>
 						</Flex>
 					</CardHeader>
