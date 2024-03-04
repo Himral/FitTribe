@@ -61,7 +61,7 @@ var dashRoutes = [
     layout: "/admin",
   },
   {
-    name: "ACCOUNT PAGES",
+    name: "Tribe Up",
     category: "account",
     rtlName: "صفحات",
     state: "pageCollapse",
