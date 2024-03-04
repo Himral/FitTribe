@@ -309,7 +309,7 @@ export default function Dashboard() {
 					<Flex direction='column'>
 						<Flex justify='space-between' align='center' mb='40px'>
 							<Text color='#fff' fontSize='lg' fontWeight='bold'>
-								Referral Tracking
+								BMI Calculator
 							</Text>
 							<Button borderRadius='12px' w='38px' h='38px' bg='#22234B' _hover='none' _active='none'>
 								<Icon as={IoEllipsisHorizontal} color='#7551FF' />
