@@ -49,7 +49,8 @@ var dashRoutes = [
     name: "Exercise Tracker",
     rtlName: "لوحة القيادة",
     icon: <StatsIcon color='inherit' />,
-    component: Tables,
+    /*component: Tables,*/
+    component : null,
     layout: "/admin",
   },
   {
@@ -57,7 +58,8 @@ var dashRoutes = [
     name: "Meal Tracker",
     rtlName: "لوحة القيادة",
     icon: <CreditIcon color='inherit' />,
-    component: Billing,
+    //component: Billing,
+    component : null,
     layout: "/admin",
   },
   {
@@ -72,7 +74,8 @@ var dashRoutes = [
         rtlName: "لوحة القيادة",
         icon: <PersonIcon color='inherit' />,
         secondaryNavbar: true,
-        component: Profile,
+        //component: Profile,
+        component : null,
         layout: "/admin",
       },
       {
@@ -80,8 +83,9 @@ var dashRoutes = [
         name: "Sign In",
         rtlName: "لوحة القيادة",
         icon: <DocumentIcon color='inherit' />,
-        component: {},
-        layout: "/auth",
+        //component: {},
+        component : null,
+        layout: "/admin",
       },
       {
         path: "/signup",
@@ -89,8 +93,9 @@ var dashRoutes = [
         rtlName: "لوحة القيادة",
         icon: <RocketIcon color='inherit' />,
         secondaryNavbar: true,
-        component: SignUp,
-        layout: "/auth",
+        //component: SignUp,
+        component : null,
+        layout: "/admin",
       },
     ],
   },
