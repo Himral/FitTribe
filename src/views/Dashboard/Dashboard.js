@@ -211,7 +211,7 @@ export default function Dashboard() {
 								</Text>
 								<Text fontSize='md' color='gray.400' fontWeight='normal' mb='auto'>
 									Glad to see you again! <br />
-									Ask me anything.
+									Let's get healthy.
 								</Text>
 								<Spacer />
 								<Flex align='center'>
@@ -228,7 +228,7 @@ export default function Dashboard() {
 											transition='all .3s ease'
 											my={{ sm: '1.5rem', lg: '0px' }}
 											_hover={{ me: '4px' }}>
-											Tab to record
+											Tap to profile
 										</Text>
 										<Icon
 											as={BsArrowRight}
@@ -294,8 +294,8 @@ export default function Dashboard() {
 								<Text color='#fff' fontSize='28px' fontWeight='bold'>
 									95%
 								</Text>
-								<Text fontSize='xs' color='gray.400'>
-									Based on likes
+								<Text fontSize='8px' color='gray.400'>
+									Based on activities
 								</Text>
 							</Flex>
 							<Text fontSize='xs' color='gray.400'>
@@ -309,7 +309,7 @@ export default function Dashboard() {
 					<Flex direction='column'>
 						<Flex justify='space-between' align='center' mb='40px'>
 							<Text color='#fff' fontSize='lg' fontWeight='bold'>
-								Referral Tracking
+								Calorie Tracking
 							</Text>
 							<Button borderRadius='12px' w='38px' h='38px' bg='#22234B' _hover='none' _active='none'>
 								<Icon as={IoEllipsisHorizontal} color='#7551FF' />
