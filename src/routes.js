@@ -61,14 +61,6 @@ var dashRoutes = [
     layout: "/admin",
   },
   {
-    path: "/rtl-support-page",
-    name: "Settings",
-    rtlName: "آرتيإل",
-    icon: <SupportIcon color='inherit' />,
-    component: RTLPage,
-    layout: "/rtl",
-  },
-  {
     name: "ACCOUNT PAGES",
     category: "account",
     rtlName: "صفحات",
@@ -88,7 +80,7 @@ var dashRoutes = [
         name: "Sign In",
         rtlName: "لوحة القيادة",
         icon: <DocumentIcon color='inherit' />,
-        component: SignIn,
+        component: {},
         layout: "/auth",
       },
       {
