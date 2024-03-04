@@ -71,7 +71,7 @@ export default function Dashboard() {
 		<Flex flexDirection='column' pt={{ base: '120px', md: '75px' }}>
 			<SimpleGrid columns={{ sm: 1, md: 2, xl: 4 }} spacing='24px'>
 				{/* MiniStatistics Card */}
-				<Card>
+				{/* <Card>
 					<CardBody>
 						<Flex flexDirection='row' align='center' justify='center' w='100%'>
 							<Stat me='auto'>
@@ -99,9 +99,9 @@ export default function Dashboard() {
 							</IconBox>
 						</Flex>
 					</CardBody>
-				</Card>
+				</Card> */}
 				{/* MiniStatistics Card */}
-				<Card minH='83px'>
+				{/* <Card minH='83px'>
 					<CardBody>
 						<Flex flexDirection='row' align='center' justify='center' w='100%'>
 							<Stat me='auto'>
@@ -129,9 +129,9 @@ export default function Dashboard() {
 							</IconBox>
 						</Flex>
 					</CardBody>
-				</Card>
+				</Card> */}
 				{/* MiniStatistics Card */}
-				<Card>
+				{/* <Card>
 					<CardBody>
 						<Flex flexDirection='row' align='center' justify='center' w='100%'>
 							<Stat>
@@ -160,9 +160,9 @@ export default function Dashboard() {
 							</IconBox>
 						</Flex>
 					</CardBody>
-				</Card>
+				</Card> */}
 				{/* MiniStatistics Card */}
-				<Card>
+				{/* <Card>
 					<CardBody>
 						<Flex flexDirection='row' align='center' justify='center' w='100%'>
 							<Stat me='auto'>
@@ -190,7 +190,7 @@ export default function Dashboard() {
 							</IconBox>
 						</Flex>
 					</CardBody>
-				</Card>
+				</Card> */}
 			</SimpleGrid>
 			<Grid templateColumns={{ sm: '1fr', md: '1fr 1fr', '2xl': '2fr 1.2fr 1.5fr' }} my='26px' gap='18px'>
 				{/* Welcome Card */}
