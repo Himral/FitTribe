@@ -4,7 +4,7 @@ export const bgAdmin = {
   styles: {
     global: (props) => ({
       body: {
-        backgroundColor: "#000000",
+        backgroundColor: "#223D5A",
         //bgImage: bgBody,
         bgSize: "cover",
         bgPosition: "center center",

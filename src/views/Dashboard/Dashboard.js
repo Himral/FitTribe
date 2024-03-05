@@ -197,7 +197,7 @@ export default function Dashboard() {
 				<Card
 					p='0px'
 					gridArea={{ md: '1 / 1 / 2 / 3', '2xl': 'auto' }}
-					bgImage={medusa}
+					//bgImage={medusa}
 					bgSize='cover'
 					bgPosition='50%'>
 					<CardBody w='100%' h='100%'>
