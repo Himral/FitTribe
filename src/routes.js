@@ -24,6 +24,7 @@ import RTLPage from "views/RTL/RTLPage.js";
 import Profile from "views/Dashboard/Profile.js";
 import SignIn from "views/Pages/SignIn.js";
 import SignUp from "views/Pages/SignUp.js";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import {
   HomeIcon,
@@ -34,21 +35,30 @@ import {
   RocketIcon,
   SupportIcon,
 } from "components/Icons/Icons";
-
+import {
+  FaHome,
+  FaUserFriends,
+  FaMoneyBill,
+  FaUser,
+  FaUtensils,
+  FaFileAlt,
+  FaRocket,
+  FaHandsHelping,
+} from "react-icons/fa";
 var dashRoutes = [
   {
     path: "/dashboard",
     name: "Dashboard",
     rtlName: "لوحة القيادة",
-    icon: <HomeIcon color='inherit' />,
+    icon: <FaHome color='inherit' />,
     component: Dashboard,
     layout: "/admin",
   },
   {
     path: "/tables",
-    name: "Exercise Tracker",
+    name: "Find Your Buddy",
     rtlName: "لوحة القيادة",
-    icon: <StatsIcon color='inherit' />,
+    icon: <FaUserFriends color='inherit' />,
     /*component: Tables,*/
     component : null,
     layout: "/admin",
@@ -57,7 +67,7 @@ var dashRoutes = [
     path: "/billing",
     name: "Meal Tracker",
     rtlName: "لوحة القيادة",
-    icon: <CreditIcon color='inherit' />,
+    icon: <FaUtensils color='inherit' />,
     //component: Billing,
     component : null,
     layout: "/admin",
