@@ -4,10 +4,12 @@ export const bgAdmin = {
   styles: {
     global: (props) => ({
       body: {
-        bgImage: bgBody,
+        backgroundColor: "#223D5A",
+        //bgImage: bgBody,
         bgSize: "cover",
         bgPosition: "center center",
       },
+      
     }),
   },
 };
